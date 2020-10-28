@@ -10,7 +10,7 @@ namespace robot
 {
 struct Image_handle
 {
-    char windows_name[robot::MAX_WINDOWS_NAME_SIZE];
+    char windows_name[MAX_WINDOWS_NAME_SIZE];
     uint32_t hight;
     uint32_t width;
 
@@ -44,11 +44,11 @@ void windows_init(char *win_name);
 
 void image_clear(Image_handle *img);
 
-void draw_polygon(Image_handle *img, robot::Polygon *poly,
+void draw_polygon(Image_handle *img, Polygon *poly,
                   cv::Scalar color);
 
 void draw_polygon_array(Image_handle *img,
-                        robot::Polygon *poly_array,
+                        Polygon *poly_array,
                         uint64_t size,
                         cv::Scalar color_);
 } // namespace robot

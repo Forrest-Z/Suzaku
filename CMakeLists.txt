@@ -25,3 +25,12 @@ target_link_libraries(example_test
   ${OpenCV_LIBS}
   robot)
 
+add_executable(opengl_test
+  test/opengl_test.cc)
+# target_include_directories()
+target_link_libraries(opengl_test
+  ${OpenCV_LIBS}
+  robot
+  GL 
+  glut)
+

@@ -22,7 +22,7 @@ void image_clear(Image_handle *img)
     img->img = cv::Mat(img->hight, img->width, CV_8UC3, img->background_color);
 }
 
-void draw_polygon(Image_handle *img, robot::Polygon *poly,
+void draw_polygon(Image_handle *img, Polygon *poly,
                   cv::Scalar color)
 {
 
@@ -47,7 +47,7 @@ void draw_polygon(Image_handle *img, robot::Polygon *poly,
 }
 
 void draw_polygon_array(Image_handle *img,
-                        robot::Polygon *poly_array,
+                        Polygon *poly_array,
                         uint64_t size,
                         cv::Scalar color_)
 
