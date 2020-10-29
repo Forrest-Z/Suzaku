@@ -8,6 +8,7 @@
 - Googletest
 - Google Benchmark
 - box2d
+- lanelet2
 
 ## OPENGL
 
