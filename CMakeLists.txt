@@ -9,6 +9,8 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 find_package(Eigen3 REQUIRED)
 find_package(OpenCV REQUIRED)
 
+add_subdirectory(third_party)
+
 add_library(robot 
   src/shape.cc
   src/display.cc
