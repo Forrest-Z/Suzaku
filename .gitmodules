@@ -7,3 +7,6 @@
 [submodule "third_party/glfw3"]
 	path = third_party/glfw3
 	url = git@github.com:AutonomousSystemVisualization/glfw.git
+[submodule "third_party/OpenDDS"]
+	path = third_party/OpenDDS
+	url = git@github.com:objectcomputing/OpenDDS.git
