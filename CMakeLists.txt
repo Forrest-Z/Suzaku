@@ -33,6 +33,8 @@ add_executable(opengl_test
 target_link_libraries(opengl_test
   ${OpenCV_LIBS}
   robot
-  GL 
-  glut)
+  GL
+  glut
+  glfw 
+  )
 
