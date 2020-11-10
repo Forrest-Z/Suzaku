@@ -45,3 +45,10 @@ target_link_libraries(glog_test
   glog  
 )
 
+add_executable(glfw_test
+  test/glfw3_test.cc)
+# target_include_directories(glfw_test )
+target_link_libraries(glfw_test
+  glfw 
+)
+
