@@ -1,6 +1,6 @@
 # 怎么搭建一个自动驾驶操作系统
 
-- 目前我想做的工作
+## 目前我想做的工作
   - 一个良好的可视化模块(正在做的工作，调研了OpenGL以及WebGL, 最后还是选择OpenGL来开发)
   - 一个良好的地图
   - 坐标系，禁止frenet坐标系
@@ -11,7 +11,7 @@
     - 禁止依赖某种参数化参考线（frenet）
   - 一个良好的非结构化环境的规划器
   - 一个良好的决策器,状态机设计
-- 开发规范
+## 开发规范
   - 代码格式要求： .clang_format
   - 简单的就是最好的
   - 最好避免重复造轮子，利用好开源代码
@@ -36,7 +36,9 @@
 - Ubuntu 18.04
 - Cmake 3.5.1(at least)
 
-## OPENGL 教程
+## 开发文档
+### OpenGL
 
 - https://github.com/LearnOpenGL-CN/LearnOpenGL-CN
 - https://blog.csdn.net/xiangzhihong8/article/details/84776943
+### WebGL
