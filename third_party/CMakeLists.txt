@@ -7,6 +7,7 @@ add_subdirectory(box2d)
 add_subdirectory(benchmark)
 add_subdirectory(google_test)
 add_subdirectory(glfw3)
+add_subdirectory(glog)
 # add_subdirectory(fcl)
 
 

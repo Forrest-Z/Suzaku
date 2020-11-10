@@ -10,3 +10,6 @@
 [submodule "third_party/OpenDDS"]
 	path = third_party/OpenDDS
 	url = git@github.com:objectcomputing/OpenDDS.git
+[submodule "third_party/glog"]
+	path = third_party/glog
+	url = git@github.com:google/glog.git

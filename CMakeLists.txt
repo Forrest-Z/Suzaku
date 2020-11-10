@@ -38,3 +38,10 @@ target_link_libraries(opengl_test
   glfw 
   )
 
+add_executable(glog_test
+  test/glog_test.cc)
+# target_include_directories()
+target_link_libraries(glog_test
+  glog  
+)
+
