@@ -1,0 +1,17 @@
+repositories:
+  src/external/autoware_auto_msgs:
+    type: git
+    url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs.git
+    version: 88a13256c224a709815054157f1389e258b57ba2
+  src/external/mpc:
+    type: git
+    url: https://gitlab.com/JWhitleyWork/mpc.git
+    version: foxy
+  src/external/rosauth:
+    type: git
+    url: https://github.com/GT-RAIL/rosauth.git
+    version: ros2
+  src/external/rosbridge_suite:
+    type: git
+    url: https://github.com/RobotWebTools/rosbridge_suite.git
+    version: ros2
